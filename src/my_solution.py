@@ -8,11 +8,7 @@ def palindrome_verify(word):
 
     for i in str(word.lower()):
         
-        if i == " ":
-            
-            characters.append(i)
-        
-        elif i.isalnum():
+        if i == " " or i.isalnum():
             
             characters.append(i)
             
