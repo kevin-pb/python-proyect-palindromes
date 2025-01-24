@@ -12,6 +12,10 @@ def palindrome_verify(word):
             
             characters.append(i)
         
+        elif ord(i) in range(48, 57):
+            
+            characters.append(i)
+        
         elif ord(i) == 32:
             
             characters.append(i)
