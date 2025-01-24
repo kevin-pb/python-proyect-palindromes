@@ -8,11 +8,11 @@ def palindrome_verify(word):
 
     for i in str(word.lower()):
         
-        if i == " ":
+        if ord(i) in range(65, 123):
             
             characters.append(i)
         
-        elif i.isalnum():
+        elif ord(i) == 32:
             
             characters.append(i)
             
