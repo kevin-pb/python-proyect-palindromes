@@ -26,7 +26,20 @@ From this, it calculates whether an alphanumeric character is entered. After it 
 
 # Run & Configure
 
+- ### ORD solution:
 
+python ord_fns_solution.py
 
-https://www.w3schools.com/python/trypython.asp?filename=demo_regex
+- ### Regular exxprecions solutions:
 
+- Solution checking character by character:
+
+python regular_expretions_solution_reu.py
+
+- Solution checking all the string:
+
+python regular_expretions_solution_str.py
+
+# References
+
+[Try regulars exprecions](https://www.w3schools.com/python/trypython.asp?filename=demo_regex)
